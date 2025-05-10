@@ -6,7 +6,7 @@ def Guessing_Game(Maximum_attempts):
  Previous_guesses = []
 
 
- for attempt in range(1,Maximum_attempts):
+ for attempt in range(1,Maximum_attempts + 1):
   User_guess = int(input("What number do you think is the target number? "))
 
   if User_guess in Previous_guesses:
